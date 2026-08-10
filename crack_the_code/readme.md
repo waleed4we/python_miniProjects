@@ -252,8 +252,6 @@ Open the project folder in a terminal and run the Python file using:
 python filename.py
 ```
 
-Replace `filename.py` with the actual name of the Python source file.
-
 On some systems, you may need:
 
 ```
@@ -313,7 +311,6 @@ Through this project, the following concepts were practiced:
 - Using loops for repeated actions
 - Applying conditional logic
 - Working with strings and lists
-- Using list comprehensions
 - Generating random values
 - Tracking game state using variables
 - Implementing lives and attempt systems
