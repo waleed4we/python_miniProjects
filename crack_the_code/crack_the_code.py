@@ -199,6 +199,7 @@ elif(cheat_var == "n"):
 else:
     print("Oh, I See! You Didn't Enter 'y' or 'n'. Okay, We Won't Reveal The Answer")
 
+print("Try to guess the number in as few attempts as possible!")
 print("\n1 For Easy , 2 For Medium , 3 For Hard")
 while True:
     try:
