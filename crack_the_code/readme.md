@@ -325,7 +325,9 @@ Through this project, the following concepts were practiced:
 ## 👨‍💻 Author
 
 **Malik Waleed Hussain**
+
 **Data Analytics / Computer Science Student**
+
 GitHub: **@waleed4we**
 
 ---
