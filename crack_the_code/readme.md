@@ -21,8 +21,6 @@ Before starting the game, the player chooses:
 2. 🕵️ Whether to enable **Cheat Mode**
 3. 🎯 The desired difficulty level
 
-The rules and feedback change depending on the selected difficulty level, making each level progressively more challenging.
-
 ---
 
 ## ✨ Features
@@ -87,94 +85,30 @@ Each level provides different rules and feedback.
 
 ---
 
-# 🕹️ Difficulty Levels
+## 📸 Screenshots
 
-## 🟢 Easy Mode
+### 🎮 Game Start
+![Game Start](screenshots/game_start.png)
 
-Easy Mode is designed to help the player understand the code and its digit positions.
+### 🟢 Easy Mode
 
-### Rules
+![Easy Mode](screenshots/easy_mode.png)
 
-- ♾️ Unlimited attempts
-- ❌ You cannot lose
-- 🔢 Full digit feedback is provided
-- 📍 Correctly positioned digits are identified
-- 🔄 Correct digits in the wrong position are identified
-- 📊 Total attempts are displayed after winning
+### 🟡 Medium Mode
 
-The game tells you :
+![Medium Mode](screenshots/medium_mode.png)
 
-- Which digit is correct and in the correct position
-- Which digit is correct but in the wrong position
+### 🔴 Hard Mode
 
-### Example
+![Hard Mode](screenshots/hard_mode.png)
 
-```
-5 is true and on correct position
+### 🏆 Winning Screen
 
-8 is correct but on wrong position
-```
-
-This makes Easy Mode useful for learning how the secret code is constructed.
+![Winning Screen](screenshots/winning_screen.png)
 
 ---
 
-## 🟡 Medium Mode
-
-Medium Mode makes the game more challenging by introducing a limited number of lives.
-
-### Rules
-
-- ❤️ 9 lives
-- 🎯 Each valid guess costs one life
-- ❌ An incorrectly sized code also costs a life
-- 📍 The number of correctly positioned digits is shown
-- 🔢 The number of correct digits is shown
-- 🔒 The actual correct digits are not revealed
-- 🔄 Wrong-position count is not revealed
-- 🏆 The player wins by cracking the code before running out of lives
-
-### Example 
-
-```
-For Number 5831 :
-
-2 Digits Are Correct And Placed Correctly
-```
-
-The game gives less information than Easy Mode, making the player rely more on deduction.
-
----
-
-## 🔴 Hard Mode
-
-Hard Mode provides the biggest challenge.
-
-### Rules
-
-- ❤️ 3 lives
-- 🎯 Each valid guess costs one life
-- ❌ A code with the wrong length does **not** cost a life
-- 🔢 Only the total number of correct digits is revealed
-- 📍 Position information is not revealed
-- 🔒 Correct digits themselves are not identified
-- 🏆 The player must crack the code within 3 lives
-
-### Example 
-
-```
-For Number 5831 :
-
-1 Digit Is Correct
-
-Now You Have 2 Lives Left
-```
-
-Hard Mode provides minimal information, making deduction significantly more difficult.
-
----
-
-## 📊 Difficulty Comparison
+## 📊 Difficulty Levels And Comparison
 
 |Feature|🟢 Easy|🟡 Medium|🔴 Hard|
 |---|---|---|---|
@@ -191,24 +125,21 @@ Hard Mode provides minimal information, making deduction significantly more diff
 
 This project was built to practice and apply fundamental Python programming concepts.
 
-🔹**Variables :** Used to store values such as the secret code, guesses, lives, attempts, and digit counts.
-🔹 **User Input :** `input()` is used to interact with the player and receive guesses and game choices
-🔹 **Type Casting :** `int()` is used to convert numerical user input from string to integer
-🔹 **Conditional Statements :** `if`, `elif`, and `else` control game decisions, difficulty levels, and validation
-🔹 **Functions :** Separate functions are used for each difficulty level :
-`level_easy()` • `level_medium()` • `level_hard()`
-This keeps each level's logic organized.
-🔹 **While Loops :** Used for repeated guessing, input validation, lives, and gameplay.
-🔹 **For Loops :** Used to compare individual digits of the user's guess with the secret code.
-🔹 **Lists :** Used for digit comparison and tracking already matched digits.
-🔹 **List Comprehension :** Used to efficiently create a list of correctly matched digits.
-🔹 **String Operations :** Strings are used to handle and compare the secret code and user guesses.
-Examples: `len()`, indexing, `in`, `.count()`, `.lower()`
-🔹 **Random Number Generation :** Python's built-in `random` module is used to generate the secret code using `random.randint()`.
-🔹**Counters :** Used to track attempts, correct digits, and wrong-position digits.
-🔹 **Boolean Conditions :** Boolean expressions are used to compare guesses and control program flow.
-🔹 **Exception Handling :** `try` and `except` handle invalid numerical input and prevent the program from crashing.
-🔹 **Program Flow Control :** The project combines **conditions, loops, functions, validation, and exception handling** to create a complete interactive console game.
+🔹 **Variables:** Used to store values such as the secret code, guesses, lives, attempts, and digit counts. <br>
+🔹 **User Input:** `input()` is used to interact with the player and receive guesses and game choices. <br>
+🔹 **Type Casting:** `int()` is used to convert numerical user input from string to integer. <br>
+🔹 **Conditional Statements:** `if`, `elif`, and `else` control game decisions, difficulty levels, and validation. <br>
+🔹 **Functions:** Separate functions are used for each difficulty level: `level_easy()` • `level_medium()` • `level_hard()`. <br>
+🔹 **While Loops:** Used for repeated guessing, input validation, lives, and gameplay. <br>
+🔹 **For Loops:** Used to compare individual digits of the user's guess with the secret code. <br>
+🔹 **Lists:** Used for digit comparison and tracking already matched digits. <br>
+🔹 **List Comprehension:** Used to efficiently create a list of correctly matched digits. <br>
+🔹 **String Operations:** Strings are used to handle and compare the secret code and user guesses. Examples: `len()`, indexing, `in`, `.count()`, `.lower()`. <br>
+🔹 **Random Number Generation:** Python's built-in `random` module is used to generate the secret code using `random.randint()`. <br>
+🔹 **Counters:** Used to track attempts, correct digits, and wrong-position digits. <br>
+🔹 **Boolean Conditions:** Boolean expressions are used to compare guesses and control program flow. <br>
+🔹 **Exception Handling:** `try` and `except` handle invalid numerical input and prevent the program from crashing. <br>
+🔹 **Program Flow Control:** The project combines **conditions, loops, functions, validation, and exception handling** to create a complete interactive console game.
 
 ---
 
@@ -257,29 +188,6 @@ On some systems, you may need:
 ```
 python3 filename.py
 ```
-
----
-
-## 📸 Screenshots
-
-### 🎮 Game Start
-![[Pasted image 20260810221843.png]]
-
-### 🟢 Easy Mode
-
-![[Pasted image 20260810221921.png]]
-
-### 🟡 Medium Mode
-
-![[Pasted image 20260810222025.png]]
-
-### 🔴 Hard Mode
-
-![[Pasted image 20260810222101.png]]
-
-### 🏆 Winning Screen
-
-![[Pasted image 20260810222144.png]]
 
 ---
 
