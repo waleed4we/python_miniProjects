@@ -19,7 +19,7 @@ problem-solving, logic building, and hands-on development.
 
 <b>🔐 Crack The Code</b>
 
-A console-based number guessing game where the player attempts to crack a randomly generated secret code.
+A console-based number guessing game where the player attempts to crack a randomly generated secret code
 
 <br>
 
