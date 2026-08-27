@@ -23,7 +23,7 @@ A console-based number guessing game where the player attempts to crack a random
 
 <br>
 
-<b>Concepts Practiced</b>
+<b>Concepts Used And Practiced</b>
 
 <ul>
 <li>Variables & Data Types</li>
