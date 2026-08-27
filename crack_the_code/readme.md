@@ -7,7 +7,7 @@
 </p>
 
 
-> A Python-based code-cracking game with three difficulty levels, Cheat Mode, lives, attempt tracking, and intelligent digit feedback.
+> A Python-based code-cracking game with three difficulty levels, Cheat Mode, lives, attempt tracking, and intelligent digit feedback
 
 ---
 
