@@ -2,7 +2,7 @@ import random
 
 def level_easy(com_num):
     print("--------- Level Easy ---------")
-    print("Instructions \nAs It Is Easy Level , You Will Be Given Infinite Chances Until You Guess Correct Code , It Means You Can't Lose Here")
+    print("Instructions \nAs It Is Easy Level , You Will Be Given Infinite Chances Until You Guess Correct Code , It Means You Can't Lose Hereeee")
     print("After every guess, you will be told which digits are correct and correctly placed, and which digits are correct but wrongly placed.")
     print("In The End You Will Be Told How Many Total Attempts You Made")
 
