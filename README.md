@@ -1,6 +1,6 @@
 <div align="center">
 
-<big><big><b>𓆗 Python Mini Projects</b></big></big>
+<big><big><b>𓆙 Python Mini Projects</b></big></big>
 
 A collection of small Python projects built to practice programming concepts,
 problem-solving, logic building, and hands-on development.
