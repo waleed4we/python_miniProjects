@@ -61,9 +61,10 @@ A console-based number guessing game where the player attempts to crack a random
 
 <big><b>🎯 Purpose</b></big>
 
-This repository contains small Python projects created to strengthen programming fundamentals, improve problem-solving skills, and gain practical experience by building projects.
+This Repository Contains Small Python Projects Created to Strengthen Programming Fundamentals, Improve Problem-Solving Skills, and Gain Practical Experience by Building Projects.
 
-New projects will be added as I continue learning and experimenting with Python.
+New Projects Will Be Added as I Continue Learning and Experimenting With Python.
+
 
 <br>
 
