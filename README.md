@@ -9,7 +9,7 @@ problem-solving, logic building, and hands-on development.
 
 <br>
 
-<big><b>📂 My Projects</b></big>
+<big><b>📂 Projects</b></big>
 
 <br>
 
