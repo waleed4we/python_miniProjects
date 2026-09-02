@@ -67,7 +67,7 @@ New projects will be added as I continue learning and experimenting with Python.
 
 <br>
 
-<big><b>👨‍💻 Author</b></big>
+<big><b>🎓 Author</b></big>
 
 <b>Malik Waleed Hussain</b>
 <br>
