@@ -27,8 +27,8 @@ A console-based number guessing game where the player attempts to crack a random
 
 <ul>
 <li>Variables & Data Types</li>
-<li>User Input</li>
-<li>Type Casting</li>
+<li>User input</li>
+<li>Type casting</li>
 <li>Conditional Statements</li>
 <li>Loops</li>
 <li>Random Number Generation</li>
